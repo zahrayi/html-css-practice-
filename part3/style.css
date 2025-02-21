@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.test {
+  color: rgb(0, 0, 0);
+  background-color: #efefef;
+  padding: 10px;
+  /* text-align: center; */
+  text-align: justify;
+  font-size: 20px;
+  line-height: 30px;
+}
+.test-2 {
+  text-decoration: line-through;
+}
+.test-3 {
+  text-align: left;
+  text-transform: capitalize;
+}
+.test-4 {
+  text-indent: 10px;
+  /* letter-spacing: 10px; */
+  word-spacing: 10px;
+}
+.test-5 {
+  text-shadow: 3px 4px 6px green;
+}

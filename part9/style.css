@@ -1,0 +1,107 @@
+@font-face {
+  font-family: Vazir-Medium;
+  src: url(/fonts/Vazirmatn-RD-Medium.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Vazir-Medium;
+}
+ul.test,
+ol.test li {
+  list-style: none;
+  list-style-type: square;
+  list-style-image: url(/img/);
+}
+/* برای ریست کردن که هرجور بخایم متنو درستش کنیم به شکل زیر عمل میکنیم */
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.q {
+  background-color: aquamarine;
+  color: brown;
+  display: inline;
+}
+.w {
+  background-color: khaki;
+  color: blue;
+  display: inline-block;
+}
+.p {
+  background-color: wheat;
+  color: indigo;
+  display: none;
+}
+.test li {
+  display: inline;
+  /* margin: 0 5px; */
+  padding: 10px;
+}
+.test {
+  text-align: center;
+}
+.nav {
+  background-color: rosybrown;
+  padding: 10px;
+  font-size: 16px;
+}
+.s {
+  background-color: goldenrod;
+  color: olive;
+  visibility: hidden;
+}
+.test li:hover {
+  background-color: white;
+  border-bottom: 2px dashed red;
+}
+
+.test li a:hover {
+  color: black;
+  /* border-bottom: 2px dashed red; */
+}
+.test li:active {
+  background-color: yellow;
+}
+.input:focus {
+  /*برای input کاربرد داره بیشتر */
+  background-color: darkblue;
+  /* border-color: yellow; */
+  border: 3px dashed yellow;
+  outline: none; /*حاشیه اطراف border*/
+}
+.test li a:visited {
+  color: teal; /*اگ یه لینکیو خوندی این رنگشو عوض نیکنه */
+}
+.po {
+  background-color: lightblue;
+  color: rgb(200, 124, 124);
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+.po1 {
+  background-color: rgb(161, 174, 186);
+  color: rgb(23, 63, 10);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  /* top: 0; */
+  left: 0;
+  bottom: 0;
+  /* right:150px ; */
+}
+.up {
+  background-color: lemonchiffon;
+  color: black;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 200px;
+}

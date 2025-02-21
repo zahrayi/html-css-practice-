@@ -1,0 +1,86 @@
+@font-face {
+  font-family: Vazir-Medium;
+  src: url(/fonts/Vazirmatn-RD-Medium.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Vazir-Medium;
+}
+ul.test,
+ol.test li {
+  list-style: none;
+  list-style-type: square;
+  list-style-image: url(/img/);
+}
+/* برای ریست کردن که هرجور بخایم متنو درستش کنیم به شکل زیر عمل میکنیم */
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+::selection {
+  color: gold;
+  background-color: lemonchiffon;
+}
+.select::selection {
+  color: skyblue;
+  background-color: hotpink;
+}
+
+/* when we use first-line we can use this prooerties:
+font properties
+color properties
+background propreties
+word_spacing
+letter_spacing
+text-decoration
+vertical-align
+text-transform
+line-height
+clear */
+
+/* ::first-line{
+  /* it works for blok things not inline */
+/* color:sienna;
+}
+div::first-line{
+  color: lightgreen;
+}
+
+p::first-letter{
+  color: red;
+  font-size: 30px;
+} */
+
+.test::after {
+  /* content: url(../img/Untitled.png); */
+  content: " زهرا یوسفی ";
+}
+.test1::after {
+  content: "\f086";
+  vertical-align: 2px;
+  position: absolute;
+  /* top: 0; */
+}
+
+.test2 {
+  /* opacity: 0.4; */
+  width: 200px;
+  height: 200px;
+  color: black;
+  /* background-color: hsl(50, 82%, 57%); */
+  background-color: rgba(107, 59, 17, 0.2);
+}
+.test3 {
+  color: black;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(178, 240, 209);
+}

@@ -1,0 +1,59 @@
+@font-face {
+  font-family: Vazir-Medium;
+  src: url(/fonts/Vazirmatn-RD-Medium.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Vazir-Medium;
+}
+ul.test,
+ol.test li {
+  list-style: none;
+  list-style-type: square;
+  list-style-image: url(/img/);
+}
+/* برای ریست کردن که هرجور بخایم متنو درستش کنیم به شکل زیر عمل میکنیم */
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.linear_gradient {
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(-150deg, rgb(0, 0, 255), rgb(135, 75, 237));
+  /* background-image: repeating-linear-gradient(red , green 10% , blue 20%);  */
+}
+
+.radial_gradient {
+  width: 100%;
+  height: 300px;
+  /* background-image: radial-gradient(circle,rgb(9, 9, 157) ,rgb(165, 34, 246) ,rgb(22, 21, 22) ); */
+  /* background-image: radial-gradient(blue 10%,rgb(165, 34, 246) 20%,rgb(22, 21, 22) 50%); */
+  /* background-image: repeating-radial-gradient(blue ,rgb(165, 34, 246) ,rgb(22, 21, 22) 10%); */
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 0.9192051820728291) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.border-image {
+  margin: 30px;
+  width: 600px;
+  height: 200px;
+  border: 15px solid transparent;
+  /* border-image-source: url(../img/border.png); */
+  /* border-image-repeat: stretch; */
+  /* border-image-repeat: space;
+    border-image-slice: 30;
+    border-image-width: 15px; */
+  border-image: url(../img/border.png) 30 space;
+}

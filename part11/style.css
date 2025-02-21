@@ -1,0 +1,95 @@
+@font-face {
+  font-family: Vazir-Medium;
+  src: url(/fonts/Vazirmatn-RD-Medium.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Vazir-Medium;
+}
+ul.test,
+ol.test li {
+  list-style: none;
+  list-style-type: square;
+  list-style-image: url(/img/);
+}
+/* برای ریست کردن که هرجور بخایم متنو درستش کنیم به شکل زیر عمل میکنیم */
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.wrapper p:first-child {
+  /* اولین چیزو از چندتا چیز مشابه تغییر میده */
+  color: blueviolet;
+}
+.wrapper p:first-of-type {
+  color: goldenrod;
+}
+.wrapper p:last-child {
+  color: blueviolet;
+}
+.wrapper p:last-of-type {
+  color: goldenrod;
+}
+.wrapper :not(p) {
+  color: darkgrey;
+  background-color: antiquewhite;
+}
+.wrapper span:nth-child(1) {
+  color: lawngreen;
+  background-color: forestgreen;
+  text-align: center;
+}
+.wrapper :nth-last-child(1) {
+  background-color: blue;
+}
+.wrapper p:nth-last-of-type(3) {
+  background-color: aquamarine;
+}
+.wrapper p:nth-of-type(2) {
+  background-color: rebeccapurple;
+}
+.wrapper a:only-of-type {
+  /* فقظ عنصریو که تک هست انتخاب میکنه */
+  background-color: palegreen;
+}
+.wrapper header:only-child {
+  /* باید تک فرزند باشه یعنی اون مثلا تگ دیو هیچی جز هدر نباشه توش */
+  background-color: lightcoral;
+  color: black;
+}
+
+p:nth-child(odd) {
+  background-color: cadetblue;
+}
+p:nth-child(even) {
+  background-color: yellowgreen;
+}
+table tbody tr:nth-child(odd) {
+  background-color: mediumslateblue;
+}
+table {
+  border: 1px solid black;
+  width: 100%;
+  /* border-spacing: 10px; */
+  border-collapse: collapse;
+}
+td,
+th {
+  text-align: center;
+}
+input:disabled {
+  background-color: rgb(175, 140, 240);
+}
+input:required {
+  background-color: crimson;
+}
+/* input:read-only{
+  background-color: green;
+} */

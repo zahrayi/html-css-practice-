@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* بالاترین اولویتو داره و برای شناسوندن کاراکترای خاص براتی مرورگرای قدیمیه فقط باید تو فایل سی اس اس اصلی باشه*/
+@import "../css/ccreset.css";
+@import url(../css/ccreset.css);
+
+/*   همیشه باید بالا باشن دوتا روش بالا برای ایمپورت کردنه فایل دیگه به یه سنده */
+
+:root {
+  --primary--color: rgb(207, 162, 162);
+  --secondary--color: rgb(122, 198, 212);
+  --font--color: rgb(18, 18, 18);
+}
+
+.container {
+  margin: 40px;
+}
+
+ .container img{
+    /* filter: blur(4px); */
+/* filter: brightness(0.5); az yek bebala tasvir roshan va az 1 be payin (ashari) tire */
+/* filter: contrast(60%); az 100 bishtar contrast ziad va kamtar az 100 contrast kam */
+/* filter: grayscale(100%); beyn 0 ta 100 darsad hast va baraye siah va sefid kardan */
+/* filter: hue-rotate(180deg); makose har rang ro dar nazar migire mesle ghermz va abi */
+/* filter: invert(90%); baraye neghavit kardane aksa harche darsad kam tasiresh kamtar */
+/* filter: opacity(60%); */
+/* filter: saturate(5); */
+/* filter: sepia(80%); baraye ghadimi va brown kardan aksa */
+ filter: drop-shadow(8px 10px 5px black); 
+/* /* filter: contrast(160%) brightness(0.5); in halate xolasashe  */
+    
+  } 
+
+/* اگر بخوایم زیر هم بنویسیم فیلترارو باید حواسمون باشه که ترتیبشونرعایت بشه مثلا اینجا ترتیب رعایت نشده یه روش دیگشم خلاصه نوشتنشونه */
+
+.container img:hover {
+  filter: grayscale(100%);
+  /* filter: blur(5px); */
+}
+a {
+  text-decoration: none;
+  color: var(--font--color);
+  background-color: var(--primary--color);
+}
+a:hover {
+  background-color: var(--secondary--color);
+}
+p {
+  color: var(--primary--color);
+}
+p:hover {
+  color: var(--secondary--color);
+}

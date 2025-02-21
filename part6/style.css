@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Vazirmatn-RD-Medium;
+    src: url("../fonts/Vazirmatn-RD-Medium.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+  }
+  * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: 0%;
+    font-family: Vazirmatn-RD-Medium;
+    font-family: "Poppins", sans-serif;
+  }
+  /* body{
+    background-color: #ce1717;
+    background-image: url(../img/nphrgz8yfnjylrwfr0yl.webp);
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-position: center right;
+    background-attachment: fixed;  
+} */
+header{
+    width: 100%;
+    background-image: url(../img/header2.jpg); 
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+.test{
+    border: 10px dotted #000;
+    background-color: red;
+    margin: 10px 0 0 0;
+    padding: 10px;
+    background-clip: border-box;
+}
+.test1{
+    border: 10px dotted #000;
+    background-color: red;
+    margin: 10px 0 0 0;
+    padding: 10px;
+    background-clip: padding-box;
+}
+.test2{
+    border: 10px dotted #000;
+    background-color: red;
+    margin: 10px 0 0 0;
+    padding: 10px;
+    background-clip: content-box;
+}
+.test3{
+    background: #efefef url(../img/header2.jpg) no-repeat top ;
+}

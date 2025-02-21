@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Vazirmatn-RD-Medium;
+  src: url("../fonts/Vazirmatn-RD-Medium.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+*,
+html,
+body {
+  font-family: Vazirmatn-RD-Medium;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-family: Vazirmatn-RD-Medium;
+}
+.r {
+  font-family: Vazirmatn-RD-Medium;
+  font-size: large;
+  font-style: oblique;
+  font-stretch: wider;
+}
+.e {
+  font-family: "Poppins", sans-serif;
+}

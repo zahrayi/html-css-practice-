@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Vazir-Medium;
+    src: url(/fonts/Vazirmatn-RD-Medium.woff2) format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Vazir-Medium   ;
+}
+ul.test, ol.test1 li {
+    list-style: none;
+    list-style-type: square ;
+    list-style-image: url(/img/);
+
+}
+/* برای ریست کردن که هرجور بخایم متنو درستش کنیم به شکل زیر عمل میکنیم */
+ul,ol,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.q{
+    background-color: aquamarine;
+    color: brown;
+    display: inline;
+}
+.w{
+    background-color: khaki;
+    color: blue;
+    display: inline-block;
+}
+.p{
+    background-color: wheat;
+    color: indigo;
+    display: none;
+}
+.test2 li{
+    display: inline;
+    margin: 0 5px;
+     
+}
+.test2{
+    text-align: center;
+}
+.nav{
+    background-color: rosybrown;
+    padding: 10px;
+    font-size: 16px;
+}
+.s{
+    background-color: goldenrod;
+    color: olive;
+    visibility: hidden ;
+}
